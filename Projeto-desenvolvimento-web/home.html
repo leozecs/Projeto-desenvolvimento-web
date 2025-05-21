@@ -7,7 +7,43 @@
     <title>HOME</title>
 </head>
 <body>
-    <h1> aqui vai aparecer as informações do home </h1>
-    
+    <form action="http://www.google.com/search" method="get"></form>
+    <fieldset></fieldset>
+        <legend>Busca</legend>
+        <abbr>*</abbr><label for="termo_busca">Termo de Busca: </label>
+        <input type="text" name="q" id="termo_busca" required placeholder="Digite aqui">
+    </fieldset>
+    <fieldset>
+        <legend>Opções de Busca</legend>
+        <div>
+        <label for="campo_resenha">Resenha:</label>
+        <textarea name="resenha" id="campo-resenha" rowls="5" cols="50" claceholder="Resenha da busca"></textarea>
+        </div>
+        <div>
+            <label form="campo_horário">Horário de Busca</label>
+            <select name="tbs" id="campo_horario">
+                <option value="">Qualquer horário</option>
+                <option value="qdr:h">Ultima hora</option>
+                <option value="qdr:d">Ultimo dia</option>
+                <option value="qdr:w">Ultima semana</option>
+                </select>
+            </div>
+            <div> 
+                <label>Data consulta:</label>
+                <input type="date" name="date" id="campo_data">
+            </div>
+            <div> 
+                <label for="campo_qtd">Quantidade de resultados</label>
+                <input type="number" name="qtd" id="campo_qtd" min="10" max="50" step="10">
+            </div>
+            <div> 
+                <label for="campo_cpf">CPF:</label>
+                <input type="text" name="cpf" id="campo_cpf" tabindex="1" pattern="{3.d}.{3.d}.{3.d}-{2.d}">
+            </div>
+    </fieldset>
+    <button type="submit" formaction="http://www.google.com/search">Pesquisar Google</button>
+    <button type="submit" formaction="http://www.bing.com/search">Pesquisar Bing</button>
+    <div> 
+        </div>
 </body>
 </html>
