@@ -1,0 +1,98 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+/* Topo com logo e nome */
+.top-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+/* Menu de navegação */
+.menu ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  background-color: #eee;
+  padding: 10px 0;
+}
+
+.menu ul li {
+  margin: 0 20px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.menu ul li a:hover {
+  color: #d32f2f;
+}
+
+/* Conteúdo principal da página de contato */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: #eee;
+  padding: 40px 60px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Título */
+main h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+/* Parágrafos de texto */
+main p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 18px;
+  text-align: justify;
+}
+
+/* Informações de contato com ícones */
+.contact-info p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.contact-info span {
+  font-weight: bold;
+}
+
+/* Imagem do rodapé */
+.footer-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  opacity: 0.1;
+}
+
+.footer-img img {
+  width: 80px;
+  height: auto;
+}
+

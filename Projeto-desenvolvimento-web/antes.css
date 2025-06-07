@@ -1,0 +1,114 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Cabeçalho */
+.top-header {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.top-header span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #b30000;
+}
+
+/* Menu */
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #e0e0e0;
+  padding: 10px 0;
+}
+
+.menu ul li {
+  margin: 0 25px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.menu ul li a:hover {
+  color: #d32f2f;
+}
+
+/* Conteúdo */
+.antes-content {
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 6px;
+}
+
+.antes-content h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.antes-content ul {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.antes-content ul li {
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+/* Banner final */
+.banner {
+  display: flex;
+  align-items: center;
+  background-color: #d32f2f;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.banner img {
+  width: 40px;
+  height: auto;
+  margin-right: 15px;
+}
+
+/* Link vermelho com sublinhado */
+.link-destaque {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.link-destaque a {
+  color: #d32f2f;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 18px;
+}
