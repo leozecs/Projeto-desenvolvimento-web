@@ -1,0 +1,42 @@
+# Ambiente virtual (não subir)
+venv/
+
+# Compilados Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Banco de dados SQLite (opcional)
+*.db
+
+# Arquivos temporários ou de log
+*.log
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Jupyter Notebooks checkpoints (se algum dia usar)
+.ipynb_checkpoints/
+
+# Arquivos do sistema
+*.~lock.*
+*.tmp
+
+# Node (se tiver scripts futuros)
+node_modules/
+
+# MacOS
+.Spotlight-V100
+.Trashes
+
+# Linux
+*.out
+
+# Pytest ou Coverage
+htmlcov/
+.coverage
+.cache/
